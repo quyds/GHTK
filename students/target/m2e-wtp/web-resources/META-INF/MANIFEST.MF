@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: admin
+Build-Jdk: 11.0.14
+Implementation-Title: ghtk.com.students Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: ghtk
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+

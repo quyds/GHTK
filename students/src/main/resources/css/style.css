@@ -1,0 +1,101 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+header {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+.students-import {
+    height: 250px;
+}
+.students-header {
+    margin-top: 30px;
+    width: 100%;
+}
+.students-header h1 {
+    text-transform: uppercase;
+}
+.form {
+    width: 100%;
+    display: flex;
+}
+.form-index {
+	width: 100%;
+    display: flex;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+}
+.form-group {
+	display: flex;
+    justify-content: center;
+}
+.file-upload-wrapper {
+    height: 40px;
+    position: relative;
+    width: 100%;
+}
+.file-upload-wrapper input{
+	opacity: 0;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+.file-upload-wrapper:after {
+	content: attr(data-text);
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.container {
+    width: 30%;
+    margin: auto;
+}
+.form-group label {
+    width: 22%;
+    display: inline-block;
+}
+.header-title {
+    margin-bottom: 5px;
+}
+.card-body {
+	text-align: center;
+	margin-top: 20px;
+}
+.table {
+	margin:auto;
+	border-collapse:collapse;
+}
+td {
+	padding: 5px 10px;
+}
+td, th {
+	border: 0.5px solid;
+	padding-left: 5px;
+    padding-right: 5px;
+}
+.single-table {
+	margin: auto;
+    width: 900px;
+    height: 150px;
+    overflow: scroll;
+}
+.table-responsive {
+	width: 2500px;
+    height: 150px;
+}
+footer {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
